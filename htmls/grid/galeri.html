@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        main{width: 800px;height: 800px;background-color: greenyellow;display: grid; grid-template-rows: 20% 20% 20% 20%;grid-template-columns:20% 20% 20% 20%;justify-content:space-evenly;align-content: space-around;}
+        div{background-color: rebeccapurple; transition: all 0.5s;}
+        .bir:hover{border: 2px solid lightseagreen;transform: scale(1.2) rotateZ(180deg);background-color: darkcyan;box-shadow: 0px 0px 15px seashell ;border-radius: 50%;}
+        .iki:hover{border: 2px solid goldenrod;transform: scale(1.2) rotateX(180deg);background-color: lightsalmon;box-shadow: 0px 0px 20px seashell ;border-radius: 20%;}
+        .uc:hover{border: 2px solid seashell;transform: scale(1.2) rotateY(180deg);background-color: wheat;box-shadow: 0px 0px 20px lime;border-radius: 50% 25% 12% 6%;opacity: .2;}
+        #dort{position: relative; background-color: red;display: none;}
+        .uc:hover #dort{display: block;}
+        
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div id="iki" class="bir"></div>
+        <div id="uc" class="bir"></div>
+        <div class="bir"></div>
+        <div class="bir"></div>
+
+        <div class="iki"></div>
+        <div class="iki"></div>
+        <div class="iki"></div>
+        <div class="iki"></div>
+
+        <div class="uc"><div id="dort"></div></div>
+        <div class="uc"></div>
+        <div class="uc"></div>
+        <div class="uc"></div>
+
+        <div class="dort"></div>
+        <div class="dort"></div>
+        <div class="dort"></div>
+        <div class="dort"></div>
+    </main>
+</body>
+</html>

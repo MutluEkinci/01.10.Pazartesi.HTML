@@ -1,0 +1,23 @@
+main{
+    width: 1000px;height: 800px;background-color: silver;margin-left: auto;margin-right: auto;
+}
+header{
+    width: 1000px;height: 150px;background-color: orange;
+}
+nav{
+    width: 1000px;height: 50px;background-color: #333;
+}
+section{
+    width: 1000px;height: 550px;background-color: snow;
+}
+aside{
+    width: 200px;height: 550px;background-color: darkorange;float: left;
+}
+article{
+    width: 595px;height: 550px;background-color: lightcyan;float: left;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+}
+footer{
+    width: 1000px;height: 50px;background-color: yellowgreen;
+}
